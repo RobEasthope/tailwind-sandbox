@@ -12,9 +12,14 @@ module.exports = {
       },
       fontSize: {
         foo: [
-          `calc(16px + (48 - 16) * ((100vw - 320px) / (1600 - 320)))`,
+          `calc(16px + (48 - 16) * ((100vw - 320px) / (1000 - 320)))`,
           { lineHeight: "1" },
         ],
+        clamp: [
+          'clamp(16px, calc(16px + (48 - 16) * ((100vw - 320px) / (1000 - 320))), 48px)',
+          { lineHeight: "1" },
+        ],
+        "basic-clamp": ["clamp(200px, 40%,  400px)", { lineHeight: "1" }],
       },
     },
   },

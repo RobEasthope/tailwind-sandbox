@@ -18,12 +18,11 @@ const Home: NextPage = () => {
           </a>
         </h1>
 
-        <p className="mt-3 p-foo text-foo">
-          Get started by editing{" "}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
+        <p className="mt-3 p-foo text-foo">Get started by editing</p>
+
+        <p className="text-clamp">Fluid clamp</p>
+
+        <p className="text-basic-clamp">Basic clamp</p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
