@@ -6,6 +6,13 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "540px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       spacing: {
         foo: "calc(1em * 2)",
